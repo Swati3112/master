@@ -1,0 +1,39 @@
+check balance--->
+{
+    "accountDetails":{
+        "accountNumber": "1234567890"
+    }
+}
+
+withdraw--->
+{
+    "cardDetails":{
+        "accountDetails": {
+            "accountNumber": "1234567890"
+        }
+    },
+    "withdrawAmt": 200
+}
+
+deposit--->
+{
+    "cardDetails":{
+        "accountDetails": {
+            "accountNumber": "1234567890"
+        }
+    },
+    "depositAmt": 200
+}
+
+transfer-->
+{
+    "cardDetails":{
+        "accountDetails": {
+            "accountNumber": "1234567890"
+        }
+    },
+    "transferAccDetails": {
+            "accountNumber": "1234567660"
+        },
+    "transferAmt": 400
+}
